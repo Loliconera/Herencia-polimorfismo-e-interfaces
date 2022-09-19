@@ -25,9 +25,9 @@ public class Main
 }
 class Persona
 {
-    int edad;
-    String nombre;
-    int teléfono;
+    private int edad;
+    private String nombre;
+    private int teléfono;
 
     public Persona() {}
 

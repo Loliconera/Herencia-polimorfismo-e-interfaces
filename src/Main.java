@@ -2,33 +2,25 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Persona persona = new Persona();
-        persona.setNombre("Gustavo");
-        persona.setEdad(33);
-        persona.setTeléfono(949243737);
-        System.out.println(" El nombre es: " + persona.getNombre());
-        System.out.println(" tiene " + persona.getEdad() + " años");
-        System.out.println(" su número de teléfono es: " + persona.getTeléfono());
-
         Cliente cliente = new Cliente();
-        cliente.setNombre("Pepe");
-        cliente.setEdad(40);
+        cliente.setNombre("Gustavo");
+        cliente.setEdad(33);
         cliente.setTeléfono(989248767);
-        cliente.setCrédito(7.899);
-        System.out.println(" El nombre es: " + cliente.getNombre());
-        System.out.println(" tiene " + cliente.getEdad() + " años");
-        System.out.println(" su número de teléfono es: " + cliente.getTeléfono());
-        System.out.println(" tiene una cantidad de crédito de: S/ " + cliente.getCrédito());
+        cliente.setCrédito(8.899);
+        System.out.println(" Nombre del Cliente: " + cliente.getNombre());
+        System.out.println(" Edad: " + cliente.getEdad() + " años");
+        System.out.println(" Teléfono: " + cliente.getTeléfono());
+        System.out.println(" Linea de crédito disponible: S/ " + cliente.getCrédito());
 
         Trabajador trabajador = new Trabajador();
-        trabajador.setNombre("Manuel");
+        trabajador.setNombre("Gonzalo");
         trabajador.setEdad(58);
         trabajador.setTeléfono(960244380);
         trabajador.setSalario(1.989);
-        System.out.println(" El nombre es: " + trabajador.getNombre());
-        System.out.println(" tiene " + trabajador.getEdad() + " años");
-        System.out.println(" su número de teléfono es: " + trabajador.getTeléfono());
-        System.out.println(" y su salario es de: S/ " + trabajador.getSalario());
+        System.out.println(" Nombre del Trabajador: " + trabajador.getNombre());
+        System.out.println(" Edad: " + trabajador.getEdad() + " años");
+        System.out.println(" Teléfono: " + trabajador.getTeléfono());
+        System.out.println(" Salario: S/ " + trabajador.getSalario());
     }
 }
 class Persona
